@@ -25,13 +25,13 @@ brew install --HEAD emmahyde/tap/impact-score
 Compare two users:
 
 ```bash
-impact-score compare dx_report.csv emmahyde neilmbanerjee
+impact-score compare dx_report.csv user_one user_two
 ```
 
 Single user:
 
 ```bash
-impact-score calc dx_report.csv emmahyde
+impact-score calc dx_report.csv user_one
 ```
 
 Custom weights:
