@@ -37,7 +37,7 @@ impact-score calc dx_report.csv emmahyde
 Custom weights:
 
 ```bash
-impact-score compare dx_report.csv emmahyde neilmbanerjee --weights 50,40,5,5
+impact-score compare dx_report.csv user_one user_two --weights 50,40,5,5
 ```
 
 CSV must include columns: `github_username`, `prs_per_week`, `avg_cycle_time_days`, `quality_reviews_per_week`, `reviews_per_week`.
